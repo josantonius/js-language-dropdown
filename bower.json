@@ -6,8 +6,8 @@
   "description": "Language dropdown flags for Materialize and Bootstrap framework",
   "moduleType": [],
   "main": [
-    "languages/.*",
-    "jlang.js"
+    "languages/*/*.png",
+    "jlang.min.js"
   ],
   "keywords": [
     "Language",
@@ -20,16 +20,16 @@
   "license": "MIT",
   "homepage": "https://josantonius.com",
   "ignore": [
-      "**/.*",
-      "node_modules",
-      "bower_components",
-      "test",
-      "tests",
-      ".gitignore",
-      "css-sprites-im-using",
-      "css"
-    ],
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".gitignore",
+    "css-sprites-im-using",
+    "css"
+  ],
   "dependencies": {
-    "jquery": "~1.9.1"
+    "jquery": "^3.2.1"
   }
 }
