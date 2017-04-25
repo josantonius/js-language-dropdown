@@ -133,7 +133,7 @@ new JLang({
 <script>
 new JLang({framework: 'bootstrap3'});
 </script>
-```js
+```
 
 ### JLang Demo
 
