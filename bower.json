@@ -27,8 +27,5 @@
     ".gitignore",
     "css-sprites-im-using",
     "css"
-  ],
-  "dependencies": {
-    "jquery": "^3.2.1"
-  }
+  ]
 }
