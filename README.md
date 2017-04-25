@@ -202,7 +202,7 @@ new JLang({framework: 'bootstrap4'});
 
 ### JLang Demo
 
-```js
+```
 new JLang({
     id: 'languages',
     framework: 'bootstrap4',
