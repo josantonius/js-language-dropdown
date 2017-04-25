@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.0.2 - 2017-04-25
+
+* Changes in documentation.
+
+## 1.0.1 - 2017-04-25
+
+* Changes in documentation.
+
 ## 1.0.0 - 2017-04-24
 
 * Added `JLang` class.

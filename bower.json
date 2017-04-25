@@ -25,11 +25,18 @@
     "test",
     "tests",
     "demo",
-    ".gitignore",
+    "CONDUCT.md",
+    "CHANGELOG.md",
+    "contributors.txt",
+    "README.md",
+    "README-ES.md",
+    ".editorconfig",
+    ".gitattributes",
+    ".git",
     "css-sprites-im-using",
     "css"
   ],
   "dependencies": {
-    "jlang": "^1.0.1"
+    "jlang": "^1.0.2"
   }
 }

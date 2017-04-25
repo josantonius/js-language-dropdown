@@ -1,6 +1,6 @@
 # JLang JavaScrip Plugin
 
-[![WordPress plugin](https://img.shields.io/wordpress/plugin/v/search-inside.svg)](https://wordpress.org/plugins/search-inside/) [![WordPress](https://img.shields.io/wordpress/plugin/dt/search-inside.svg)](https://wordpress.org/plugins/search-inside/) [![WordPress](https://img.shields.io/wordpress/v/search-inside.svg)](https://wordpress.org/plugins/search-inside/) [![License](https://poser.pugx.org/josantonius/search-inside/license)](https://packagist.org/packages/josantonius/search-inside/license)
+[![GitHub tag](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/Josantonius/BASH-Reposgit/tree/1.0.2) [![Packagist](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/Josantonius/JLang/blob/master/LICENSE) 
 
 [Versión en español](README-ES.md)
 
@@ -10,8 +10,11 @@ Language dropdown flags for Materialize and Bootstrap framework.
 
 - [Installation](#installation)
 - [Requirements](#requirements)
-- [Usage](#usage)
-- [Images](#images)
+- [Materialize](#materialize)
+- [Bootstrap3](#bootstrap3)
+- [Bootstrap4](#bootstrap4)
+- [Options](#options)
+- [Captures](#captures)
 - [Contribute](#contribute)
 - [Licensing](#licensing)
 - [Copyright](#copyright)
@@ -32,25 +35,207 @@ The previous command will only install the necessary files, if you prefer to dow
 
 This JavaScript plugin should be used together with the Materialize or Bootstrap framework.
 
-## Usage
-
-JLang is compatible with the frameworks: Materialize, Bootstrap 3.x and Bootstrap 4.x.
-
 ## Materialize
 
-```
+### HTML Structure
 
-```
+```html
+<div id="JLang" class="right">
+  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
+  <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
+</div>
+```html
 
-## Images
+### CSS Styles
 
-![image](resources/screenshot-1.png)
-![image](resources/screenshot-2.png)
-![image](resources/screenshot-3.png)
-![image](resources/screenshot-7.png)
-![image](resources/screenshot-8.png)
-![image](resources/screenshot-9.png)
-![image](resources/screenshot-10.png)
+```css
+.language {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.language img {
+  margin-right: 10px;
+}
+
+#lanNavSel {
+  position: relative;
+  top: -8px;
+  left: 8px;
+}
+```css
+
+### JavaScript Inicialization
+
+```js
+<script src="jlang.js"></script>
+<script>
+new JLang();
+</script>
+```js
+
+### JLang Demo
+
+```js
+new JLang({
+    id: 'languages',
+    framework: 'materialize',
+    cookieExp: 30,
+    cookieLangName: 'lname',
+    cookieLangCode: 'lcode',
+    abbreviation: true,
+    reload: true,
+    alignment: 'left',
+    hover: true
+  }
+);
+```js
+
+## Bootstrap3
+
+### HTML Structure
+
+```html
+<div id="JLang">
+  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
+  <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
+</div>
+```html
+
+### CSS Styles
+
+```css
+.language img {
+  margin-right: 10px;
+}
+
+#lanNavSel {
+  position: relative;
+  top: -8px;
+  left: 8px;
+}
+```css
+
+### JavaScript Inicialization
+
+```js
+<script src="jlang.js"></script>
+<script>
+new JLang({framework: 'bootstrap3'});
+</script>
+```js
+
+### JLang Demo
+
+```js
+new JLang({
+    id: 'languages',
+    framework: 'bootstrap3',
+    cookieExp: 30,
+    cookieLangName: 'lname',
+    cookieLangCode: 'lcode',
+    abbreviation: true,
+    reload: true,
+    alignment: 'left',
+    hover: true
+  }
+);
+```js
+
+## Bootstrap3
+
+### HTML Structure
+
+```html
+<div id="JLang">
+  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
+  <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
+</div>
+```html
+
+### CSS Styles
+
+```css
+.language img {
+  margin-right: 10px;
+}
+
+#lanNavSel {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#imgNavSel {
+  margin-top: -1px;
+}
+
+#languages {
+  padding: 5px;
+}
+
+#languages:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+```css
+
+### JavaScript Inicialization
+
+```js
+<script src="jlang.js"></script>
+<script>
+new JLang({framework: 'bootstrap4'});
+</script>
+```js
+
+### JLang Demo
+
+```js
+new JLang({
+    id: 'languages',
+    framework: 'bootstrap4',
+    cookieExp: 30,
+    cookieLangName: 'lname',
+    cookieLangCode: 'lcode',
+    abbreviation: true,
+    reload: true,
+    alignment: 'left',
+    hover: true
+  }
+);
+```js
+
+## Options
+
+| Option Name | Description |
+| --- | --- |
+| id | Dropdown id name. (Default: 'languages') |
+| framework | Framework name. (Default: 'materialize') |
+| cookieExp | Cookie expiration time in days. (Default: 30) |
+| cookieLangName | 	Cookie name for save the selected language name. (Default: 'lname') |
+| cookieLangCode | Cookie name for save the selected language code. (Default: 'lcode') |
+| abbreviation | Display abbreviation and caret. (Default: true) |
+| reload | Reload page when selecting language. (Default: true) |
+| alignment | Dropdown id name. (Default: 'languages') |
+| hover | Dropdown aligned to the left or right of button. (Default: 'left') |
+
+## Captures
+
+[Materialize](demo/captures/materialize-en.md)
+[Bootstrap3](demo/captures/bootstrap3-en.md)
+[Bootstrap4](demo/captures/bootstrap4-en.md)
 
 ## Contribute
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
@@ -63,7 +248,7 @@ This is intended for large and long-lived objects.
 
 ## Licensing
 
-This project is licensed under **GPL-2.0+**. See the [LICENSE](LICENSE) file for more info.
+This project is licensed under **MIT**. See the [LICENSE](LICENSE) file for more info.
 
 ## Copyright
 
