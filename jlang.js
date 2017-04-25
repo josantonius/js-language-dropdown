@@ -9,6 +9,11 @@
  */
 class JLang {
 
+	/**
+	 * Set parameters and initialize.
+	 *
+	 * @since 1.0.0
+	 */
 	constructor(o) {
 
 		if (typeof o.id             === 'undefined') { o.id             = 'languages'; }
@@ -17,7 +22,7 @@ class JLang {
 		if (typeof o.cookieLangCode === 'undefined') { o.cookieLangCode = 'lcode'; }
 		if (typeof o.cookieLangName === 'undefined') { o.cookieLangName = 'lname'; }
 		if (typeof o.abbreviation 	 === 'undefined') { o.cookieLangName = true; }
-		if (typeof o.reload         === 'undefined') { o.reload         = true; }
+		if (typeof o.reload 			 === 'undefined') { o.reload         = true; }
 		if (typeof o.alignment      === 'undefined') { o.alignment      = 'left'; }
 		if (typeof o.hover          === 'undefined') { o.hover          = true; }
 		
@@ -34,6 +39,11 @@ class JLang {
 		this.init();
 	}
 
+	/**
+	 * Set Cookie.
+	 *
+	 * @since 1.0.0
+	 */
 	setCookie(cname, cvalue) {
 	   var d = new Date();
 	   d.setTime(d.getTime() + (this.cookieExp * 24 * 60 * 60 * 1000));
@@ -41,6 +51,13 @@ class JLang {
 	   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 	}
 
+	/**
+	 * Get cookie value.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return string
+	 */
 	getCookie(cname) {
 	   var name = cname + "=";
 	   var ca = document.cookie.split(';');
@@ -56,6 +73,13 @@ class JLang {
 	   return "";
 	}
 
+	/**
+	 * Check cookie and return value if exists.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return string
+	 */
 	checkCookie(cname, cvalue) {
 	   var exists = this.getCookie(cname);
 	   if (exists === "") {
@@ -65,6 +89,11 @@ class JLang {
 	   return exists;
 	}
 
+	/**
+	 * Plugin initializer
+	 *
+	 * @since 1.0.0
+	 */
 	init() {
 		if (this.getLanguages()) {
 			this.loadLanguages();
@@ -74,6 +103,11 @@ class JLang {
 		}
 	}
 
+	/**
+	 * Get the languages set in the html code.
+	 *
+	 * @since 1.0.0
+	 */
 	getLanguages() {
 		this.codes = [];
 		this.languages = [];
@@ -101,6 +135,11 @@ class JLang {
 		return false;
 	}
 
+	/**
+	 * Prepare languages to be inserted.
+	 *
+	 * @since 1.0.0
+	 */
 	loadLanguages() {
 		this.actualLanguage = this.getActualLanguage();
 		this.setContent();
@@ -108,6 +147,11 @@ class JLang {
 		this.setNewLanguage();
 	}
 
+	/**
+	 * Get actual language.
+	 *
+	 * @since 1.0.0
+	 */
 	getActualLanguage() {
 		this.checkCookie(
 			this.cookieLangCode, 
@@ -121,6 +165,11 @@ class JLang {
 		);
 	}
 
+	/**
+	 * Load languages listand prepare dropdown according to the framework.
+	 *
+	 * @since 1.0.0
+	 */
 	setContent() {
 		if (this.framework === 'bootstrap3') {
 	      var abbreviation = 
@@ -183,6 +232,11 @@ class JLang {
 		this.languagesList = languagesList + endContent;
 	}
 
+	/**
+	 * Insert languages.
+	 *
+	 * @since 1.0.0
+	 */
 	appendLanguagesList() {
       var JLang = document.getElementById('JLang');
 	  	JLang.innerHTML = this.content;
@@ -198,6 +252,11 @@ class JLang {
 		imgNavSel.setAttribute('src', image);
 	}
 
+	/**
+	 * Save the new selected language.
+	 *
+	 * @since 1.0.0
+	 */
 	setNewLanguage() {
 		var elems = document.getElementsByClassName('language');
 		var count = elems.length;
@@ -229,6 +288,11 @@ class JLang {
 		}
 	}
 
+	/**
+	 * Inializer for dropdown in Materialize framework.
+	 *
+	 * @since 1.0.0
+	 */
 	dropdownInitialization() {
 	  $('#' + this.dropdownID).dropdown({
 	      inDuration: 300,

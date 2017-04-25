@@ -1,0 +1,32 @@
+{
+  "name": "jlang",
+  "authors": [
+    "Josantonius <hello@josantonius.com>"
+  ],
+  "description": "Language dropdown flags for Materialize and Bootstrap framework",
+  "moduleType": [],
+  "main": [
+    "jlang.js"
+  ],
+  "keywords": [
+    "Language",
+    "Dropdown",
+    "flags",
+    "Materialize",
+    "Bootstrap",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "homepage": "https://josantonius.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo",
+    ".gitignore",
+    "css-sprites-im-using",
+    "css"
+  ]
+}
