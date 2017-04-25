@@ -6,7 +6,6 @@
   "description": "Language dropdown flags for Materialize and Bootstrap framework",
   "moduleType": [],
   "main": [
-    "languages/*/*.png",
     "jlang.min.js"
   ],
   "keywords": [
