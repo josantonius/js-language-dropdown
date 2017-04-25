@@ -152,7 +152,7 @@ new JLang({
 );
 ```
 
-## Bootstrap3
+## Bootstrap4
 
 ### HTML Structure
 
@@ -234,7 +234,9 @@ new JLang({
 ## Captures
 
 [Materialize](demo/captures/materialize-en.md)
+
 [Bootstrap3](demo/captures/bootstrap3-en.md)
+
 [Bootstrap4](demo/captures/bootstrap4-en.md)
 
 ## Contribute

@@ -47,7 +47,7 @@ Este plugin de JavaScript debe utilizarse junto con el framework Materialize o B
   <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
-```html
+```
 
 ### CSS - Estilos
 
@@ -70,7 +70,7 @@ Este plugin de JavaScript debe utilizarse junto con el framework Materialize o B
   top: -8px;
   left: 8px;
 }
-```css
+```
 
 ### Inicialización con JavaScript
 
@@ -79,7 +79,7 @@ Este plugin de JavaScript debe utilizarse junto con el framework Materialize o B
 <script>
 new JLang();
 </script>
-```js
+```
 
 ### JLang Demo
 
@@ -96,7 +96,7 @@ new JLang({
     hover: true
   }
 );
-```js
+```
 
 ## Bootstrap3
 
@@ -110,7 +110,7 @@ new JLang({
   <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
-```html
+```
 
 ### CSS - Estilos
 
@@ -124,7 +124,7 @@ new JLang({
   top: -8px;
   left: 8px;
 }
-```css
+```
 
 ### Inicialización con JavaScript
 
@@ -137,7 +137,7 @@ new JLang({framework: 'bootstrap3'});
 
 ### JLang Demo
 
-```js
+```
 new JLang({
     id: 'languages',
     framework: 'bootstrap3',
@@ -150,9 +150,9 @@ new JLang({
     hover: true
   }
 );
-```js
+```
 
-## Bootstrap3
+## Bootstrap4
 
 ### HTML - Estructura
 
@@ -164,7 +164,7 @@ new JLang({
   <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
-```html
+```
 
 ### CSS - Estilos
 
@@ -189,7 +189,7 @@ new JLang({
 #languages:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-```css
+```
 
 ### Inicialización con JavaScript
 
@@ -198,7 +198,7 @@ new JLang({
 <script>
 new JLang({framework: 'bootstrap4'});
 </script>
-```js
+```
 
 ### JLang Demo
 
@@ -215,7 +215,7 @@ new JLang({
     hover: true
   }
 );
-```js
+```
 
 ## Opciones
 
@@ -234,7 +234,9 @@ new JLang({
 ## Capturas
 
 [Materialize](demo/captures/materialize-es.md)
+
 [Bootstrap3](demo/captures/bootstrap3-es.md)
+
 [Bootstrap4](demo/captures/bootstrap4-es.md)
 
 ### Contribuir
