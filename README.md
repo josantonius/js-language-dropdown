@@ -33,6 +33,8 @@ Language dropdown flags for Materialize and Bootstrap framework.
 
 ![image](demo/captures/header.png)
 
+---
+
 ## Installation
 
 You can download this plugin with [Bower](https://bower.io/).

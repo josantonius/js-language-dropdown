@@ -33,6 +33,8 @@ Banderas desplegables para seleccion de idioma los frameworks Materialize y Boot
 
 ![image](demo/captures/header.png)
 
+---
+
 ## Instalación
 
 Puedes descargar este complemento con [Bower](https://bower.io/).
