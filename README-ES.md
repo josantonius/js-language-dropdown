@@ -1,10 +1,10 @@
-# JLang JavaScrip Plugin
+# JLang JavaScript Plugin
 
 [![GitHub tag](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/Josantonius/BASH-Reposgit/tree/1.0.2) [![Packagist](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/Josantonius/JLang/blob/master/LICENSE) 
 
 [English version](README.md)
 
-Banderas desplegables para seleccion de idioma los frameworks Materialize y Bootstrap.
+Banderas desplegables para seleccion de idioma en frameworks Materialize y Bootstrap.
 
 ---
 
@@ -24,7 +24,7 @@ Banderas desplegables para seleccion de idioma los frameworks Materialize y Boot
 <p align="center"><strong>Echa un vistazo al código</strong></p>
 
 <p align="center">
-  <a href="" title="Echa un vistazo al código">
+  <a href="https://youtu.be/tCRsABUsR4U" title="Echa un vistazo al código">
     <img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>
