@@ -17,6 +17,7 @@ Language dropdown flags for Materialize and Bootstrap framework.
 - [Captures](#captures)
 - [Usage](#usage)
 - [Tests](#tests)
+- [TODO](#-todo)
 - [Contribute](#contribute)
 - [License](#license)
 - [Copyright](#copyright)
