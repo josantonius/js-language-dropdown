@@ -1,6 +1,8 @@
 /demo export-ignore
 /bower_components export-ignore
+/node_modules export-ignore
 .gitattributes export-ignore
+gulpfile.js export-ignore
 .gitignore export-ignore
 CHANGELOG.md export-ignore
 CONDUCT.md export-ignore

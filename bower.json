@@ -32,6 +32,7 @@
     "README-ES.md",
     ".editorconfig",
     ".gitattributes",
+    "package-lock.json",
     ".git",
     "css-sprites-im-using",
     "css"

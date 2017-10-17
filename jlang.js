@@ -16,15 +16,15 @@ class JLang {
      */
     constructor(o) {
 
-        if (typeof o.id             === 'undefined') { o.id             = 'languages'; }
-        if (typeof o.framework      === 'undefined') { o.framework      = 'materialize'; }
-        if (typeof o.cookieExp      === 'undefined') { o.cookieExp      = 30; }
-        if (typeof o.cookieLangCode === 'undefined') { o.cookieLangCode = 'lcode'; }
-        if (typeof o.cookieLangName === 'undefined') { o.cookieLangName = 'lname'; }
-        if (typeof o.abbreviation   === 'undefined') { o.cookieLangName = true; }
-        if (typeof o.reload         === 'undefined') { o.reload         = true; }
-        if (typeof o.alignment      === 'undefined') { o.alignment      = 'left'; }
-        if (typeof o.hover          === 'undefined') { o.hover          = true; }
+        if (typeof o.id             === "undefined") { o.id             = "languages"; }
+        if (typeof o.framework      === "undefined") { o.framework      = "materialize"; }
+        if (typeof o.cookieExp      === "undefined") { o.cookieExp      = 30; }
+        if (typeof o.cookieLangCode === "undefined") { o.cookieLangCode = "lcode"; }
+        if (typeof o.cookieLangName === "undefined") { o.cookieLangName = "lname"; }
+        if (typeof o.abbreviation   === "undefined") { o.cookieLangName = true; }
+        if (typeof o.reload         === "undefined") { o.reload         = true; }
+        if (typeof o.alignment      === "undefined") { o.alignment      = "left"; }
+        if (typeof o.hover          === "undefined") { o.hover          = true; }
         
         this.dropdownID     = o.id;
         this.framework      = o.framework;

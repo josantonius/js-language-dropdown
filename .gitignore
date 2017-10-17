@@ -1,8 +1,9 @@
 phpunit.xml
 composer.phar
 composer.lock
+package-lock.json
 composer-test.lock
-vendor/
+node_modules/
 build/artifacts/
 artifacts/
 docs/_build

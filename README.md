@@ -15,19 +15,11 @@ Language dropdown flags for Materialize and Bootstrap framework.
 - [Bootstrap4](#bootstrap4)
 - [Options](#options)
 - [Captures](#captures)
+- [Usage](#usage)
+- [Tests](#tests)
 - [Contribute](#contribute)
 - [License](#license)
 - [Copyright](#copyright)
-
----
-
-<p align="center"><strong>Take a look at the code</strong></p>
-
-<p align="center">
-  <a href="https://youtu.be/tCRsABUsR4U" title="Take a look at the code">
-    <img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
-  </a>
-</p>
 
 ---
 
@@ -253,7 +245,17 @@ new JLang({
 
 [Bootstrap4](demo/captures/bootstrap4-en.md)
 
+### Tests 
+
+- [ ] Pending
+
+### ☑ TODO
+
+- [ ] Create tests
+- [ ] Improve documentation
+
 ## Contribute
+
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.
 1. Fork the repository on GitHub to start making your changes.
 1. Write one or more tests for the new feature or that expose the bug.

@@ -15,19 +15,11 @@ Banderas desplegables para seleccion de idioma en frameworks Materialize y Boots
 - [Bootstrap4](#bootstrap4)
 - [Opciones](#opciones)
 - [Capturas](#capturas)
+- [Tests](#tests)
+- [Tareas pendientes](#-tareas-pendientes)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
 - [Copyright](#copyright)
-
----
-
-<p align="center"><strong>Echa un vistazo al código</strong></p>
-
-<p align="center">
-  <a href="https://youtu.be/tCRsABUsR4U" title="Echa un vistazo al código">
-    <img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
-  </a>
-</p>
 
 ---
 
@@ -253,7 +245,17 @@ new JLang({
 
 [Bootstrap4](demo/captures/bootstrap4-es.md)
 
+### Tests 
+
+- [ ] Pendiente
+
+### ☑ Tareas pendientes
+
+- [ ] Completar tests
+- [ ] Mejorar la documentación
+
 ### Contribuir
+
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
 1. Escribe una o más pruebas para la nueva característica o expón el error.

@@ -3,7 +3,7 @@
   "authors": [
     "Josantonius <hello@josantonius.com>"
   ],
-  "description": "Language dropdown flags for Materialize and Bootstrap framework",
+  "description": "Language dropdown flags for Materialize and Bootstrap framework.",
   "moduleType": [],
   "main": [
     "jlang.js"
@@ -25,8 +25,19 @@
     "test",
     "tests",
     "demo",
-    ".gitignore",
+    "CONDUCT.md",
+    "CHANGELOG.md",
+    "contributors.txt",
+    "README.md",
+    "README-ES.md",
+    ".editorconfig",
+    ".gitattributes",
+    "package-lock.json",
+    ".git",
     "css-sprites-im-using",
     "css"
-  ]
+  ],
+  "dependencies": {
+    "jlang": "^1.0.2"
+  }
 }
