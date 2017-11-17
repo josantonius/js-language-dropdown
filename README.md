@@ -44,6 +44,8 @@ This JavaScript plugin should be used together with the Materialize or Bootstrap
 
 ## Materialize
 
+[Live demo](https://josantonius.github.io/jlang/materialize.html)
+
 ### HTML Structure
 
 ```html
@@ -107,6 +109,8 @@ new JLang({
 
 ## Bootstrap3
 
+[Live demo](https://josantonius.github.io/jlang/bootstrap-3.x.html)
+
 ### HTML Structure
 
 ```html
@@ -160,6 +164,8 @@ new JLang({
 ```
 
 ## Bootstrap4
+
+[Live demo](https://josantonius.github.io/jlang/bootstrap-4.x.html)
 
 ### HTML Structure
 

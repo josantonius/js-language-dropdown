@@ -43,6 +43,8 @@ Este plugin de JavaScript debe utilizarse junto con el framework Materialize o B
 
 ## Materialize
 
+[Demostración](https://josantonius.github.io/jlang/materialize.html)
+
 ### HTML - Estructura
 
 ```html
@@ -106,6 +108,8 @@ new JLang({
 
 ## Bootstrap3
 
+[Demostración](https://josantonius.github.io/jlang/bootstrap-3.x.html)
+
 ### HTML - Estructura
 
 ```html
@@ -159,6 +163,8 @@ new JLang({
 ```
 
 ## Bootstrap4
+
+[Demostración](https://josantonius.github.io/jlang/bootstrap-4.x.html)
 
 ### HTML - Estructura
 
