@@ -1,25 +1,23 @@
 # JLang JavaScript Plugin
 
-[![GitHub tag](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/Josantonius/BASH-Reposgit/tree/1.0.2) [![Packagist](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/Josantonius/JLang/blob/master/LICENSE) 
+[![GitHub tag](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/josantonius/js-language-dropdown/tree/1.0.2)
+[![Packagist](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/josantonius/js-language-dropdown/blob/master/LICENSE)
 
 [English version](README.md)
 
-Banderas desplegables para seleccion de idioma en frameworks Materialize y Bootstrap.
+Banderas desplegables para selección de idioma en frameworks Materialize y Bootstrap.
 
 ---
 
 - [Instalación](#instalación)
-- [Requerimentos.](#requerimentos)
+- [Requerimientos](#requerimientos)
 - [Materialize](#materialize)
 - [Bootstrap3](#bootstrap3)
 - [Bootstrap4](#bootstrap4)
 - [Opciones](#opciones)
 - [Capturas](#capturas)
-- [Tests](#tests)
-- [Tareas pendientes](#-tareas-pendientes)
-- [Contribuir](#contribuir)
+- [Patrocinar](#patrocinar)
 - [Licencia](#licencia)
-- [Copyright](#copyright)
 
 ---
 
@@ -31,13 +29,13 @@ Banderas desplegables para seleccion de idioma en frameworks Materialize y Boots
 
 Puedes descargar este complemento con [Bower](https://bower.io/).
 
-    $ bower install jlang --save
+    bower install jlang --save
 
 El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente incluyendo el contenido de demostración puedes utilizar:
 
-    $ git clone https://github.com/Josantonius/JLang.git
+    git clone https://github.com/josantonius/js-language-dropdown.git
 
-## Requerimentos.
+## Requerimientos
 
 Este plugin de JavaScript debe utilizarse junto con el framework Materialize o Bootstrap.
 
@@ -49,10 +47,10 @@ Este plugin de JavaScript debe utilizarse junto con el framework Materialize o B
 
 ```html
 <div id="JLang" class="right">
-  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="es-ES" data-src="languages/32/Spain.png">Español</div>
   <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
   <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
-  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsche</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
 ```
@@ -114,10 +112,10 @@ new JLang({
 
 ```html
 <div id="JLang">
-  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="es-ES" data-src="languages/32/Spain.png">Español</div>
   <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
   <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
-  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsche</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
 ```
@@ -170,10 +168,10 @@ new JLang({
 
 ```html
 <div id="JLang">
-  <div data-lang-code="es-ES" data-src="languages/32/spain.png">Español</div>
+  <div data-lang-code="es-ES" data-src="languages/32/Spain.png">Español</div>
   <div data-lang-code="it-IT" data-src="languages/32/Italy.png">Italian</div>
   <div data-lang-code="en-GB" data-src="languages/32/United-Kingdom.png">English</div>
-  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsch</div>
+  <div data-lang-code="de-DE" data-src="languages/32/Germany.png">Deutsche</div>
   <div data-lang-code="fr-FR" data-src="languages/32/France.png">French</div>
 </div>
 ```
@@ -236,7 +234,7 @@ new JLang({
 | id | Dropdown id name. (Default: 'languages') |
 | framework | Framework name. (Default: 'materialize') |
 | cookieExp | Cookie expiration time in days. (Default: 30) |
-| cookieLangName | 	Cookie name for save the selected language name. (Default: 'lname') |
+| cookieLangName |  Cookie name for save the selected language name. (Default: 'lname') |
 | cookieLangCode | Cookie name for save the selected language code. (Default: 'lcode') |
 | abbreviation | Display abbreviation and caret. (Default: true) |
 | reload | Reload page when selecting language. (Default: true) |
@@ -251,33 +249,14 @@ new JLang({
 
 [Bootstrap4](demo/captures/bootstrap4-es.md)
 
-### Tests 
+## Patrocinar
 
-- [ ] Pendiente
+Si este proyecto te ayuda a reducir el tiempo de desarrollo,
+[puedes patrocinarme](https://github.com/josantonius/lang/es-ES/README.md#patrocinar)
+para apoyar mi trabajo :blush:
 
-### ☑ Tareas pendientes
+## Licencia
 
-- [ ] Completar tests
-- [ ] Mejorar la documentación
+Este repositorio tiene una licencia [MIT License](LICENSE).
 
-### Contribuir
-
-1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
-1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
-1. Escribe una o más pruebas para la nueva característica o expón el error.
-1. Haz cambios en el código para implementar la característica o reparar el fallo.
-1. Envía pull request para fusionar los cambios y que sean publicados.
-
-Esto está pensado para proyectos grandes y de larga duración.
-
-### Licencia
-
-Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
-
-### Copyright
-
-2017 Josantonius, [josantonius.com](https://josantonius.com/)
-
-Si te ha resultado útil, házmelo saber :wink:
-
-Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
+Copyright © 2017-2022, [Josantonius](https://github.com/josantonius/lang/es-ES/README.md#contacto)

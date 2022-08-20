@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2022-08-20
+
+* The repository was archived.
+
 ## 1.0.2 - 2017-04-25
 
 * Changes in documentation.
