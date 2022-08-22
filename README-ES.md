@@ -21,7 +21,7 @@ Banderas desplegables para selección de idioma en frameworks Materialize y Boot
 
 ---
 
-![image](demo/captures/header.png)
+![image](docs/captures/header.png)
 
 ---
 
@@ -145,7 +145,7 @@ new JLang({framework: 'bootstrap3'});
 
 ### JLang Demo
 
-```
+```js
 new JLang({
     id: 'languages',
     framework: 'bootstrap3',
@@ -243,11 +243,11 @@ new JLang({
 
 ## Capturas
 
-[Materialize](demo/captures/materialize-es.md)
+[Materialize](docs/captures/materialize-es.md)
 
-[Bootstrap3](demo/captures/bootstrap3-es.md)
+[Bootstrap3](docs/captures/bootstrap3-es.md)
 
-[Bootstrap4](demo/captures/bootstrap4-es.md)
+[Bootstrap4](docs/captures/bootstrap4-es.md)
 
 ## Patrocinar
 

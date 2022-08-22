@@ -22,7 +22,7 @@ Language dropdown flags for Materialize and Bootstrap framework.
 
 ---
 
-![image](demo/captures/header.png)
+![image](docs/captures/header.png)
 
 ---
 
@@ -213,7 +213,7 @@ new JLang({framework: 'bootstrap4'});
 
 ### JLang Demo
 
-```
+```js
 new JLang({
     id: 'languages',
     framework: 'bootstrap4',
@@ -244,11 +244,11 @@ new JLang({
 
 ## Captures
 
-[Materialize](demo/captures/materialize-en.md)
+[Materialize](docs/captures/materialize-en.md)
 
-[Bootstrap3](demo/captures/bootstrap3-en.md)
+[Bootstrap3](docs/captures/bootstrap3-en.md)
 
-[Bootstrap4](demo/captures/bootstrap4-en.md)
+[Bootstrap4](docs/captures/bootstrap4-en.md)
 
 ## Sponsor
 
